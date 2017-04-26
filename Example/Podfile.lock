@@ -1,0 +1,19 @@
+PODS:
+  - LYXiMaLaYaFMBase/Category (0.1.0)
+  - LYXiMaLaYaFMMain (0.1.0):
+    - LYXiMaLaYaFMBase/Category
+
+DEPENDENCIES:
+  - LYXiMaLaYaFMMain (from `../`)
+
+EXTERNAL SOURCES:
+  LYXiMaLaYaFMMain:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LYXiMaLaYaFMBase: 866d3f44b7a1c0d3a214614125ff23b66e7c4c2f
+  LYXiMaLaYaFMMain: d202ded75dad5fbe0eac0208b2ba738ce03f33e3
+
+PODFILE CHECKSUM: 472f07c3b035d42277ab198a7dc2ca149d18c76d
+
+COCOAPODS: 1.2.1

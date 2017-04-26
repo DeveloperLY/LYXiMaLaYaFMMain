@@ -1,8 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/DeveloperLY/LYOpenSpecs.git' #私有索引库...
+
 use_frameworks!
 
 target 'LYXiMaLaYaFMMain_Example' do
   pod 'LYXiMaLaYaFMMain', :path => '../'
-
+  
   target 'LYXiMaLaYaFMMain_Tests' do
     inherit! :search_paths
 

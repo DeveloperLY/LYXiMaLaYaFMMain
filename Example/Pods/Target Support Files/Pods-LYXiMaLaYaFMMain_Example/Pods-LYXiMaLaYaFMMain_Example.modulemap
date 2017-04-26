@@ -1,0 +1,6 @@
+framework module Pods_LYXiMaLaYaFMMain_Example {
+  umbrella header "Pods-LYXiMaLaYaFMMain_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

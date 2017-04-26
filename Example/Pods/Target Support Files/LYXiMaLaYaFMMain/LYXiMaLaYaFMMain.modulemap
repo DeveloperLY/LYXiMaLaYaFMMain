@@ -1,0 +1,6 @@
+framework module LYXiMaLaYaFMMain {
+  umbrella header "LYXiMaLaYaFMMain-umbrella.h"
+
+  export *
+  module * { export * }
+}

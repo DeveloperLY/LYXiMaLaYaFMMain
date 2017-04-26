@@ -24,6 +24,8 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		B1893FC101F055E2C2C5192C /* Pods_LYXiMaLaYaFMMain_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08D17A24C7D41C736F82D5A1 /* Pods_LYXiMaLaYaFMMain_Tests.framework */; };
+		CD2B6DDB1EB0C5990007767D /* LYTest2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2B6DDA1EB0C5990007767D /* LYTest2ViewController.m */; };
+		CDDFC4451EAF9F9200109BE4 /* LYTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDFC4441EAF9F9200109BE4 /* LYTestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02DFB18404C4CD3907BA2418 /* LYXiMaLaYaFMMain.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LYXiMaLaYaFMMain.podspec; path = ../LYXiMaLaYaFMMain.podspec; sourceTree = "<group>"; };
+		02DFB18404C4CD3907BA2418 /* LYXiMaLaYaFMMain.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LYXiMaLaYaFMMain.podspec; path = ../LYXiMaLaYaFMMain.podspec; sourceTree = "<group>"; };
 		08D17A24C7D41C736F82D5A1 /* Pods_LYXiMaLaYaFMMain_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYXiMaLaYaFMMain_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CB870B40E9304A89C0EF16B /* Pods-LYXiMaLaYaFMMain_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYXiMaLaYaFMMain_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LYXiMaLaYaFMMain_Example/Pods-LYXiMaLaYaFMMain_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LYXiMaLaYaFMMain_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYXiMaLaYaFMMain_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,11 +64,15 @@
 		635339BCCEF8623A00E54803 /* Pods_LYXiMaLaYaFMMain_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYXiMaLaYaFMMain_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F81D6F08F02A80C511611CB /* Pods-LYXiMaLaYaFMMain_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYXiMaLaYaFMMain_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LYXiMaLaYaFMMain_Tests/Pods-LYXiMaLaYaFMMain_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		84B59BA737ADBC8D61E688AA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		84B59BA737ADBC8D61E688AA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BB82184F43A1960C7DA919D4 /* Pods-LYXiMaLaYaFMMain_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYXiMaLaYaFMMain_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LYXiMaLaYaFMMain_Example/Pods-LYXiMaLaYaFMMain_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C92ADC85C2A6383ECF2988F0 /* Pods-LYXiMaLaYaFMMain_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYXiMaLaYaFMMain_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LYXiMaLaYaFMMain_Tests/Pods-LYXiMaLaYaFMMain_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E209C6CFEF4145ADA271C7D9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CD2B6DD91EB0C5990007767D /* LYTest2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTest2ViewController.h; sourceTree = "<group>"; };
+		CD2B6DDA1EB0C5990007767D /* LYTest2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYTest2ViewController.m; sourceTree = "<group>"; };
+		CDDFC4431EAF9F9200109BE4 /* LYTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTestViewController.h; sourceTree = "<group>"; };
+		CDDFC4441EAF9F9200109BE4 /* LYTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYTestViewController.m; sourceTree = "<group>"; };
+		E209C6CFEF4145ADA271C7D9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +143,10 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* LYViewController.h */,
 				6003F5A6195388D20070C39A /* LYViewController.m */,
+				CDDFC4431EAF9F9200109BE4 /* LYTestViewController.h */,
+				CDDFC4441EAF9F9200109BE4 /* LYTestViewController.m */,
+				CD2B6DD91EB0C5990007767D /* LYTest2ViewController.h */,
+				CD2B6DDA1EB0C5990007767D /* LYTest2ViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -395,7 +405,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* LYAppDelegate.m in Sources */,
+				CDDFC4451EAF9F9200109BE4 /* LYTestViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* LYViewController.m in Sources */,
+				CD2B6DDB1EB0C5990007767D /* LYTest2ViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -530,6 +542,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -545,6 +558,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -7,12 +7,33 @@
 //
 
 #import "LYAppDelegate.h"
+#import <LYXiMaLaYaFMMain/LYTabBarController.h>
+#import <LYXiMaLaYaFMMain/LYTabBar.h>
+#import "LYTestViewController.h"
 
 @implementation LYAppDelegate
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
-    // Override point for customization after application launch.
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    LYTabBarController *rootController = [LYTabBarController tabBarControllerWithAddChildVCsBlock:^(LYTabBarController *tabBarController) {
+        [tabBarController addChildViewController:[LYTestViewController new] normalImageName:@"tabbar_find_n" selectedImageName:@"tabbar_find_h" isRequiredNavController:YES];
+        [tabBarController addChildViewController:[UIViewController new] normalImageName:@"tabbar_sound_n" selectedImageName:@"tabbar_sound_h" isRequiredNavController:YES];
+        [tabBarController addChildViewController:[UIViewController new] normalImageName:@"tabbar_download_n" selectedImageName:@"tabbar_download_h" isRequiredNavController:YES];
+        [tabBarController addChildViewController:[UIViewController new] normalImageName:@"tabbar_me_n" selectedImageName:@"tabbar_me_h" isRequiredNavController:YES];
+    }];
+    
+    LYTabBar *tabBar = (LYTabBar *)rootController.tabBar;
+    tabBar.playButtonDidClickBlock = ^(BOOL isPlaying) {
+        if (isPlaying) {
+            NSLog(@"正在播放中...");
+        } else {
+            NSLog(@"停止播放状态");
+        }
+    };
+    
+    self.window.rootViewController = rootController;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
