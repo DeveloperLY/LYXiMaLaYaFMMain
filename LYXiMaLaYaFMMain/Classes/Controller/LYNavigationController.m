@@ -57,8 +57,11 @@
          * 只要把系统返回按钮覆盖,就不会再有滑动返回功能
          */
         NSBundle *currentBundle = [NSBundle bundleForClass:[self class]];
-        NSString *imagePath = [[currentBundle resourcePath] stringByAppendingPathComponent:@"LYXiMaLaYaFMMain.bundle/Tabbar/btn_back_n.png"];
-        UIImage *image = [UIImage imageWithContentsOfFile:imagePath];
+//        NSString *imagePath = [[currentBundle resourcePath] stringByAppendingPathComponent:@"LYXiMaLaYaFMMain.bundle/Tabbar/btn_back_n.png"];
+//        UIImage *image = [UIImage imageWithContentsOfFile:imagePath];
+        NSURL *bundleURL = [currentBundle URLForResource:@"LYXiMaLaYaFMMain" withExtension:@"bundle"];
+        NSBundle *resourceBundle = [NSBundle bundleWithURL:bundleURL];
+        UIImage *image = [UIImage imageNamed:@"Tabbar/btn_back_n" inBundle:resourceBundle compatibleWithTraitCollection:nil];
         viewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[image imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] style:UIBarButtonItemStylePlain target:self action:@selector(back)];
         // 隐藏底部tabBar
         viewController.hidesBottomBarWhenPushed = YES;

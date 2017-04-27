@@ -33,7 +33,7 @@ LYXiMaLaYaFMMain: LYXiMaLaYaFM的主骨架工程组件.
   s.source_files = 'LYXiMaLaYaFMMain/Classes/**/*'
   
   s.resource_bundles = {
-    'LYXiMaLaYaFMMain' => ['LYXiMaLaYaFMMain/Assets/*']
+    'LYXiMaLaYaFMMain' => ['LYXiMaLaYaFMMain/Assets/*.png']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

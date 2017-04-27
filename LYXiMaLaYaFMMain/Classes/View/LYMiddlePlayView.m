@@ -108,8 +108,11 @@ static LYMiddlePlayView *_shareInstance;
         [self.middleImageView.layer resumeAnimate];
     } else {
         NSBundle *currentBundle = [NSBundle bundleForClass:[self class]];
-        NSString *imagePath = [[currentBundle resourcePath] stringByAppendingPathComponent:@"LYXiMaLaYaFMMain.bundle/Tabbar/tabbar_np_play.png"];
-        UIImage *image = [UIImage imageWithContentsOfFile:imagePath];
+//        NSString *imagePath = [[currentBundle resourcePath] stringByAppendingPathComponent:@"LYXiMaLaYaFMMain.bundle/Tabbar/tabbar_np_play.png"];
+//        UIImage *image = [UIImage imageWithContentsOfFile:imagePath];
+        NSURL *bundleURL = [currentBundle URLForResource:@"LYXiMaLaYaFMMain" withExtension:@"bundle"];
+        NSBundle *resourceBundle = [NSBundle bundleWithURL:bundleURL];
+        UIImage *image = [UIImage imageNamed:@"Tabbar/tabbar_np_play" inBundle:resourceBundle compatibleWithTraitCollection:nil];
         [self.playButton setImage:image forState:UIControlStateNormal];
         [self.middleImageView.layer pauseAnimate];
     }
