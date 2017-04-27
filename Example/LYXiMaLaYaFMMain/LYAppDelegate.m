@@ -14,6 +14,7 @@
 @implementation LYAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
     LYTabBarController *rootController = [LYTabBarController tabBarControllerWithAddChildVCsBlock:^(LYTabBarController *tabBarController) {
         [tabBarController addChildViewController:[LYTestViewController new] normalImageName:@"tabbar_find_n" selectedImageName:@"tabbar_find_h" isRequiredNavController:YES];

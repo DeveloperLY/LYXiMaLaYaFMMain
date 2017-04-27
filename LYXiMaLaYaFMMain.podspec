@@ -40,4 +40,5 @@ LYXiMaLaYaFMMain: LYXiMaLaYaFM的主骨架工程组件.
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'LYXiMaLaYaFMBase/Category'
+
 end
