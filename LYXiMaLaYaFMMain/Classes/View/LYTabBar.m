@@ -37,12 +37,8 @@
     self.barStyle = UIBarStyleBlack;
     // 设置tabbar 背景图片
     NSBundle *currentBundle = [NSBundle bundleForClass:[self class]];
-//    NSString *imagePath = [[currentBundle resourcePath] stringByAppendingPathComponent:@"LYXiMaLaYaFMMain.bundle/Tabbar/tabbar_bg.png"];
-//    UIImage *image = [UIImage imageWithContentsOfFile:imagePath];
-    
-    NSURL *bundleURL = [currentBundle URLForResource:@"LYXiMaLaYaFMMain" withExtension:@"bundle"];
-    NSBundle *resourceBundle = [NSBundle bundleWithURL:bundleURL];
-    UIImage *image = [UIImage imageNamed:@"Tabbar/tabbar_bg" inBundle:resourceBundle compatibleWithTraitCollection:nil];
+    NSString *imagePath = [[currentBundle resourcePath] stringByAppendingPathComponent:@"LYXiMaLaYaFMMain.bundle/tabbar_bg.png"];
+    UIImage *image = [UIImage imageWithContentsOfFile:imagePath];
     self.backgroundImage = image;
     
     // 设置播放按钮的位置

@@ -35,7 +35,7 @@ static LYMiddlePlayView *_shareInstance;
 }
 
 + (instancetype)middlePlayView {
-    return [[[NSBundle bundleForClass:self] loadNibNamed:NSStringFromClass(self) owner:nil options:nil] firstObject];
+    return [[[NSBundle bundleForClass:[self class]] loadNibNamed:NSStringFromClass([self class]) owner:nil options:nil] firstObject];
 }
 
 #pragma mark - Life Cycle
@@ -108,11 +108,8 @@ static LYMiddlePlayView *_shareInstance;
         [self.middleImageView.layer resumeAnimate];
     } else {
         NSBundle *currentBundle = [NSBundle bundleForClass:[self class]];
-//        NSString *imagePath = [[currentBundle resourcePath] stringByAppendingPathComponent:@"LYXiMaLaYaFMMain.bundle/Tabbar/tabbar_np_play.png"];
-//        UIImage *image = [UIImage imageWithContentsOfFile:imagePath];
-        NSURL *bundleURL = [currentBundle URLForResource:@"LYXiMaLaYaFMMain" withExtension:@"bundle"];
-        NSBundle *resourceBundle = [NSBundle bundleWithURL:bundleURL];
-        UIImage *image = [UIImage imageNamed:@"Tabbar/tabbar_np_play" inBundle:resourceBundle compatibleWithTraitCollection:nil];
+        NSString *imagePath = [[currentBundle resourcePath] stringByAppendingPathComponent:@"LYXiMaLaYaFMMain.bundle/tabbar_np_play.png"];
+        UIImage *image = [UIImage imageWithContentsOfFile:imagePath];
         [self.playButton setImage:image forState:UIControlStateNormal];
         [self.middleImageView.layer pauseAnimate];
     }

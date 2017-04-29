@@ -15,22 +15,22 @@
             <rect key="frame" x="0.0" y="0.0" width="65" height="65"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LYXiMaLaYaFMMain.bundle/Tabbar/tabbar_np_shadow" translatesAutoresizingMaskIntoConstraints="NO" id="1w4-dt-0lh">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LYXiMaLaYaFMMain.bundle/tabbar_np_shadow" translatesAutoresizingMaskIntoConstraints="NO" id="1w4-dt-0lh">
                     <rect key="frame" x="0.0" y="0.0" width="65" height="65"/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LYXiMaLaYaFMMain.bundle/Tabbar/tabbar_np_normal" translatesAutoresizingMaskIntoConstraints="NO" id="LKK-Xc-VHv">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LYXiMaLaYaFMMain.bundle/tabbar_np_normal" translatesAutoresizingMaskIntoConstraints="NO" id="LKK-Xc-VHv">
                     <rect key="frame" x="0.0" y="0.0" width="65" height="65"/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LYXiMaLaYaFMMain.bundle/Tabbar/tabbar_np_playshadow" translatesAutoresizingMaskIntoConstraints="NO" id="9xa-hg-DG8">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LYXiMaLaYaFMMain.bundle/tabbar_np_playshadow" translatesAutoresizingMaskIntoConstraints="NO" id="9xa-hg-DG8">
                     <rect key="frame" x="0.0" y="0.0" width="65" height="65"/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LYXiMaLaYaFMMain.bundle/Tabbar/zxy_icon" translatesAutoresizingMaskIntoConstraints="NO" id="p4o-JH-oOJ">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LYXiMaLaYaFMMain.bundle/header_default" translatesAutoresizingMaskIntoConstraints="NO" id="p4o-JH-oOJ">
                     <rect key="frame" x="11" y="11" width="43" height="43"/>
                 </imageView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uq2-Yd-isM">
                     <rect key="frame" x="10" y="10" width="45" height="45"/>
                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                    <state key="normal" image="LYXiMaLaYaFMMain.bundle/Tabbar/tabbar_np_play"/>
+                    <state key="normal" image="LYXiMaLaYaFMMain.bundle/tabbar_np_play"/>
                 </button>
             </subviews>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -66,10 +66,10 @@
         </view>
     </objects>
     <resources>
-        <image name="LYXiMaLaYaFMMain.bundle/Tabbar/tabbar_np_normal" width="16" height="16"/>
-        <image name="LYXiMaLaYaFMMain.bundle/Tabbar/tabbar_np_play" width="16" height="16"/>
-        <image name="LYXiMaLaYaFMMain.bundle/Tabbar/tabbar_np_playshadow" width="16" height="16"/>
-        <image name="LYXiMaLaYaFMMain.bundle/Tabbar/tabbar_np_shadow" width="16" height="16"/>
-        <image name="LYXiMaLaYaFMMain.bundle/Tabbar/zxy_icon" width="16" height="16"/>
+        <image name="LYXiMaLaYaFMMain.bundle/header_default" width="16" height="16"/>
+        <image name="LYXiMaLaYaFMMain.bundle/tabbar_np_normal" width="16" height="16"/>
+        <image name="LYXiMaLaYaFMMain.bundle/tabbar_np_play" width="16" height="16"/>
+        <image name="LYXiMaLaYaFMMain.bundle/tabbar_np_playshadow" width="16" height="16"/>
+        <image name="LYXiMaLaYaFMMain.bundle/tabbar_np_shadow" width="16" height="16"/>
     </resources>
 </document>

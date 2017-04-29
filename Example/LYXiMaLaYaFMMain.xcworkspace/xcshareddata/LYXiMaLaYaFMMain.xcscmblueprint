@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "62FA8F30663B280368534C55318CADF9C7A48CED",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "62FA8F30663B280368534C55318CADF9C7A48CED" : 9223372036854775807,
+    "CBD89214B00B4EB8598F7BF8CE14EE23A24E6A86" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5460C33F-8E55-45D1-A033-08C6C934A05B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "62FA8F30663B280368534C55318CADF9C7A48CED" : "LYXiMaLaYaFMMain\/",
+    "CBD89214B00B4EB8598F7BF8CE14EE23A24E6A86" : "..\/..\/..\/FM\/%E7%AC%AC2%E5%A4%A9\/%E7%AC%AC1%E9%98%B6%E6%AE%B5\/%E8%AF%BE%E5%A0%82%E4%BB%A3%E7%A0%81\/6.%E9%AA%A8%E6%9E%B6%E7%BB%84%E4%BB%B6%E5%8C%96-%E7%BB%9F%E4%B8%80%E6%8A%AB%E9%9C%B2API\/XMGFMMain"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LYXiMaLaYaFMMain",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/LYXiMaLaYaFMMain.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/DeveloperLY\/LYXiMaLaYaFMMain.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "62FA8F30663B280368534C55318CADF9C7A48CED"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.coding.net\/seemygo_wangshunzi\/XMGFMMain.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CBD89214B00B4EB8598F7BF8CE14EE23A24E6A86"
+    }
+  ]
+}
