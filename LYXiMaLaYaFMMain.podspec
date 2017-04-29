@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LYXiMaLaYaFMMain'
-  s.version          = '0.1.1'
+  s.version          = '0.2.0'
   s.summary          = 'LYXiMaLaYaFMMain.'
 
 # This description is used to generate tags and improve search results.
@@ -33,7 +33,7 @@ LYXiMaLaYaFMMain: LYXiMaLaYaFM的主骨架工程组件.
   s.source_files = 'LYXiMaLaYaFMMain/Classes/**/*'
   
   s.resource_bundles = {
-    'LYXiMaLaYaFMMain' => ['LYXiMaLaYaFMMain/Assets/*.png']
+    'LYXiMaLaYaFMMain' => ['LYXiMaLaYaFMMain/Assets/**/*.png']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

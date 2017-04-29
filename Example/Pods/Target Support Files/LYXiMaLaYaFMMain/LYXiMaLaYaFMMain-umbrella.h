@@ -12,6 +12,7 @@
 
 #import "LYNavigationController.h"
 #import "LYTabBarController.h"
+#import "LYMainModuleAPI.h"
 #import "LYMiddlePlayView.h"
 #import "LYNavigationBar.h"
 #import "LYTabBar.h"

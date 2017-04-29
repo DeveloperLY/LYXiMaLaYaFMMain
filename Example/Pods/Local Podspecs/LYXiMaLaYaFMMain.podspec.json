@@ -1,6 +1,6 @@
 {
   "name": "LYXiMaLaYaFMMain",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "LYXiMaLaYaFMMain.",
   "description": "LYXiMaLaYaFMMain: LYXiMaLaYaFM的主骨架工程组件.",
   "homepage": "https://github.com/DeveloperLY/LYXiMaLaYaFMMain",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/DeveloperLY/LYXiMaLaYaFMMain.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
@@ -21,7 +21,7 @@
   "source_files": "LYXiMaLaYaFMMain/Classes/**/*",
   "resource_bundles": {
     "LYXiMaLaYaFMMain": [
-      "LYXiMaLaYaFMMain/Assets/*"
+      "LYXiMaLaYaFMMain/Assets/**/*.png"
     ]
   },
   "dependencies": {
